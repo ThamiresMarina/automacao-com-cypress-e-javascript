@@ -25,7 +25,7 @@ jobs:
           browser: chrome
 
       - name: Salvar evidências
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always() # salva mesmo se o teste falhar
         with:
           name: cypress-evidencias
