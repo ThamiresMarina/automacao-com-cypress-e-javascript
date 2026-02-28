@@ -1,4 +1,8 @@
+
+
 # 🧪 Automação de Testes - Política de Privacidade
+
+![Cypress Tests](https://github.com/ThamiresMarina/automacao-com-cypress-e-javascript/actions/workflows/ci.yml/badge.svg)
 
 Projeto de automação de testes E2E para o site [Iterasys](https://iterasys.com/), desenvolvido com **Cypress** e **Cucumber (Gherkin)**, cobrindo os cenários de login e verificação do link de Política de Privacidade.
 
