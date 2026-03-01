@@ -11,9 +11,9 @@ Given('que acesso o site da Iterasys sem fazer login', () => {
   cy.visit('https://iterasys.com/')
 })
 
-When('preencho o email {string} e a senha {string}', (email, senha) => {
-  cy.get('[name="username"]').should('be.visible').type(email)
-  cy.get('[name="password"]').type(senha)
+When('preencho minhas credenciais', () => {
+  cy.get('[name="username"]').should('be.visible').type(Cypress.env('email'))
+  cy.get('[name="password"]').type(Cypress.env('senha'))
 })
 
 When('clico em entrar', () => {
